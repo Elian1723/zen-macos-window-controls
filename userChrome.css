@@ -19,18 +19,18 @@
 }
 
 .titlebar-close {
-    background: #ff5f57 !important;
-    border: 1px solid rgba(255, 95, 87, 0.8) !important;
+    background: #ed6a5e !important;
+    border: 1px solid rgba(237, 106, 94, 0.8) !important;
 }
 
 .titlebar-min {
-    background: #ffbd2e !important;
-    border: 1px solid rgba(255, 189, 46, 0.8) !important;
+    background: #f5bf50 !important;
+    border: 1px solid rgba(245, 191, 80, 0.8) !important;
 }
 
 .titlebar-max, .titlebar-restore {
-    background: #28ca42 !important;
-    border: 1px solid rgba(40, 202, 66, 0.8) !important;
+    background: #61c454 !important;
+    border: 1px solid rgba(97, 196, 84, 0.8) !important;
 }
 
 .titlebar-button > image {
@@ -55,25 +55,25 @@
 .titlebar-close::before {
     width: 10px !important;
     height: 10px !important;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path fill="none" stroke="%23802f26" d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke-width="1.3" stroke-linecap="round"/></svg>') center/contain no-repeat !important;
+    background: url('./close-icon.svg') center/contain no-repeat !important;
 }
 
 .titlebar-min::before {
     width: 10px !important;
     height: 3px !important;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="3" viewBox="0 0 10 3"><rect width="5" height="1" x="2.5" y="1" rx="0.5" fill="%23663d00"/></svg>') center/contain no-repeat !important;
+    background: url('./minimize-icon.svg') center/contain no-repeat !important;
 }
 
 .titlebar-max::before {
     width: 10px !important;
     height: 10px !important;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path fill="none" stroke="%23053e06" stroke-width="1" stroke-linecap="round" d="M6 3L7.5 1.5M6 3L7.5 4.5M6 3L4.5 1.5M4 7L2.5 8.5M4 7L2.5 5.5M4 7L5.5 8.5"/></svg>') center/contain no-repeat !important;
+    background: url('./maximize-icon.svg') center/contain no-repeat !important;
 }
 
 .titlebar-restore::before {
     width: 10px !important;
     height: 10px !important;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path fill="none" stroke="%23053e06" stroke-width="1" stroke-linecap="round" d="M6.5 2.5L5 4M6.5 2.5L8 1M6.5 2.5L8 4M3.5 7.5L5 6M3.5 7.5L2 9M3.5 7.5L2 6"/></svg>') center/contain no-repeat !important;
+    background: url('./restore-icon.svg') center/contain no-repeat !important;
 }
 
 .titlebar-close:hover {
