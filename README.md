@@ -9,7 +9,7 @@ If you installed Zen Browser via flatpak and want to use macOS window controls o
 6. Copy the icon **svg files** and the **userChrome.css** file into this folder
 7. Close and reopen Zen Browser
 
-<div style="display: flex; justify-content: space-around;">
+<div align="center">
     <img src="screenshots/controls.png" alt="Gameboard"/>
 </div>
 
